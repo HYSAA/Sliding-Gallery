@@ -1,0 +1,123 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+ }
+ 
+ 
+ body{
+    min-height: 100vh;
+    background: #d1abab;
+}
+.container{
+    position: relative;
+    max-width: 1350px;
+    width: 100%;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: rgb(237, 9, 9);
+}
+button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.05);
+}
+.filter-btn{
+display: flex;
+align-items: center;
+gap: 10px;
+flex-wrap: wrap;
+}
+button.active{
+    background-color: aqua;
+}
+.filterable_cards{
+    display: flex;
+    margin-top: 25px;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: #fff;
+    flex-basis: 300px;
+    padding: 3px;
+    border-radius: 8px;
+    flex-grow: 1;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.05);
+}
+.card.hide{
+    display: none;
+}
+.card img{
+    
+    object-fit: cover;
+    object-position: center;
+height: 200px;
+width: 100%;
+border-radius: 8px 8px 0 0;
+}
+.card_body{
+     padding: 15px 20px 20px;
+}
+.card_title{
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+.card_text{
+    font-size: 18px;
+    color: #333;
+} 
+ /* Import Google font - Poppins */
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #f1f1f1 !important;
+}
+
+body .container {
+  max-width: 1100px;
+}
+
+#filter-buttons button {
+  border-radius: 3px;
+  background: #fff;
+  border-color: transparent;
+}
+
+#filter-buttons button:hover {
+  background: #ddd;
+}
+
+#filter-buttons button.active {
+  color: #fff;
+  background: #6c757d;
+}
+
+#filterable-cards .card {
+  width: 15rem;
+  border: 2px solid transparent;
+}
+
+#filterable-cards .card.hide {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #filterable-cards {
+    justify-content: center;
+  }
+
+  #filterable-cards .card {
+    width: calc(100% / 2 - 10px);
+  }
+} */
